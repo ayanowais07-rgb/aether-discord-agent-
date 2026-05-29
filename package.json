@@ -1,13 +1,18 @@
 {
   "name": "aether-autonomous-agent",
   "version": "4.0.0",
+  "description": "Aether — Autonomous Browser Agent",
   "main": "bot.js",
-  "scripts": { "start": "node bot.js" },
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
-    "puppeteer-core": "^22.0.0",
+    "puppeteer-core": "^10.4.0",
     "chrome-aws-lambda": "^10.1.0"
   },
-  "engines": { "node": ">=18.0.0" }
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
